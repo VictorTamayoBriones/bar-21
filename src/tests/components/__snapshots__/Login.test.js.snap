@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <Login/> should show corectly <Login/> 1`] = `
+<styled.div>
+  <styled.div>
+    <img
+      alt="bar 21 xalpa"
+      src="loginImg.png"
+      title="bar 21 xalpa"
+    />
+    <form>
+      <h2>
+        Sig in
+      </h2>
+      <styled.input
+        name="user"
+        onChange={[Function]}
+        placeholder="Usuario"
+        required={true}
+        type="text"
+      />
+      <styled.input
+        name="pass"
+        onChange={[Function]}
+        placeholder="Contraseña"
+        required={true}
+        type="password"
+      />
+      <styled.button>
+        Sig in
+      </styled.button>
+    </form>
+  </styled.div>
+</styled.div>
+`;
