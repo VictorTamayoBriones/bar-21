@@ -12,7 +12,7 @@ export const Navbar = () => {
                 <li><NavLink className={ ({isActive}) => (isActive ? 'active' : '' ) } to="/dashboard/productos" >Productos</NavLink></li>
                 <li><NavLink className={ ({isActive}) => (isActive ? 'active' : '' ) } to="/dashboard/ventas">Ventas</NavLink></li>
                 <li><NavLink className={ ({isActive}) => (isActive ? 'active' : '' ) } to="/dashboard/reportes">Reportes</NavLink></li>
-                <li><NavLink className={ ({isActive}) => (isActive ? 'active' : '' ) } to="/dashboard/usuarios">Usuarios</NavLink></li>
+                <li><NavLink className={ ({isActive}) => (isActive ? 'active' : '' ) } to="/dashboard/usuarios/users-list">Usuarios</NavLink></li>
             </ul>
             <button>Cerrar Sesión</button>
             <Svg onClick={ ()=>setVisible(!visible) } />

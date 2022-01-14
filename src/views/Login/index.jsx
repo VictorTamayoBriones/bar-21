@@ -17,6 +17,8 @@ export const Login = () => {
         }
     }
 
+    console.log(user, pass);
+
     return(
         <Container>
             <LoginContainer>

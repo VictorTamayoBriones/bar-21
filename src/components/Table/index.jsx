@@ -4,7 +4,7 @@ import { theme } from '../../theme';
 export const Table = styled.table`
     width: 90%;
     margin: auto;
-    border: ${ (props)=>props.border ? 'solid 1px ${ theme.moradoClaro }' : 'none' };
+    border: ${ (props)=>props.border ? `solid 1px ${ theme.moradoClaro }` : 'none' };
     border-radius: 5px;
     color: ${ theme.blanco };
     tr{

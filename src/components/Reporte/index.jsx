@@ -11,16 +11,17 @@ export const Reporte = styled.div`
     transition: ease all .5s;
     cursor: pointer;
     p{
-        font-size: 24px;
+        font-size: 18px;
         color: ${ theme.blanco };
-        margin-bottom: 18px;
+        margin-bottom: 8px;
         position: relative;
         z-index: 1;
     }
     &:hover{
         box-shadow: 0px 0px 9px 5px ${ theme.moradoClaroTransparente };
         svg{
-            transform: scale(1.5) translate3d(-10px, -10px, 0px);
+            color: ${theme.blanco};
+            transform: scale(1.1) translate3d(-15px, 0px, 0px);
         }
     }
 `;

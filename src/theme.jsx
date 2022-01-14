@@ -5,6 +5,7 @@ export const theme = {
     grisTransparente: 'rgba(196, 196, 196, 0.20)',
     moradoOscuro: '#151226',
     moradoClaro: '#BF307F',
+    moradoClaroHover: '#be317f',
     moradoClaroTransparente: 'rgba(191, 48, 127, 0.5)',
     rojo: '#FF0000',
     verde: '#16A000'
